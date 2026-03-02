@@ -64,6 +64,15 @@ func (s *MySQLStore) UpsertSnapshot(ctx context.Context, snap market.Snapshot) e
 		{piyasaAdi: "USDTRY", fiyat: snap.USDTRY, paraBirimi: "TRY"},
 		{piyasaAdi: "EURTRY", fiyat: snap.EURTRY, paraBirimi: "TRY"},
 		{piyasaAdi: "GBPTRY", fiyat: snap.GBPTRY, paraBirimi: "TRY"},
+		{piyasaAdi: "JPYTRY", fiyat: snap.JPYTRY, paraBirimi: "TRY"},
+		{piyasaAdi: "CHFTRY", fiyat: snap.CHFTRY, paraBirimi: "TRY"},
+		{piyasaAdi: "CADTRY", fiyat: snap.CADTRY, paraBirimi: "TRY"},
+		{piyasaAdi: "AUDTRY", fiyat: snap.AUDTRY, paraBirimi: "TRY"},
+		{piyasaAdi: "NZDTRY", fiyat: snap.NZDTRY, paraBirimi: "TRY"},
+		{piyasaAdi: "SEKTRY", fiyat: snap.SEKTRY, paraBirimi: "TRY"},
+		{piyasaAdi: "NOKTRY", fiyat: snap.NOKTRY, paraBirimi: "TRY"},
+		{piyasaAdi: "DKKTRY", fiyat: snap.DKKTRY, paraBirimi: "TRY"},
+		{piyasaAdi: "PLNTRY", fiyat: snap.PLNTRY, paraBirimi: "TRY"},
 		// NOTE: Assumes XAUTRY maps to gram altin TRY.
 		{piyasaAdi: "XAUTRY", fiyat: snap.GramAltinTRY, paraBirimi: "TRY"},
 	}

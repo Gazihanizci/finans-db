@@ -1,6 +1,6 @@
 # Market Service (Doviz + Altin)
 
-Bu servis USD/TRY, EUR/TRY ve Gram Altin (TRY) fiyatlarini ceker, konsola yazdirir ve REST API olarak sunar.
+Bu servis USD/TRY, EUR/TRY, GBP/TRY, JPY/TRY, CHF/TRY, CAD/TRY, AUD/TRY, NZD/TRY, SEK/TRY, NOK/TRY, DKK/TRY, PLN/TRY ve Gram Altin (TRY) fiyatlarini ceker, konsola yazdirir ve REST API olarak sunar.
 
 ## Calistirma
 
@@ -32,6 +32,15 @@ Ornek cevap:
     "USDTRY": {"value": 43.60},
     "EURTRY": {"value": 51.73},
     "GBPTRY": {"value": 61.20},
+    "JPYTRY": {"value": 0.2890},
+    "CHFTRY": {"value": 55.90},
+    "CADTRY": {"value": 31.70},
+    "AUDTRY": {"value": 28.40},
+    "NZDTRY": {"value": 26.10},
+    "SEKTRY": {"value": 4.20},
+    "NOKTRY": {"value": 4.00},
+    "DKKTRY": {"value": 7.50},
+    "PLNTRY": {"value": 12.80},
     "GRAM_ALTIN_TRY": {"value": 7025.85}
   }
 }
